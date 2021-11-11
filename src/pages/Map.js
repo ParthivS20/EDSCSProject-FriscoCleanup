@@ -46,6 +46,8 @@ class Map extends Component {
     try {
       xmlHttp.send();
     } catch (e) {}
+
+    console.log(process.env.BACKEND_URL);
   }
 
   resetViewport = () => {
