@@ -22,7 +22,7 @@
   },
   "scripts": {
     "start": "node ./src/script.js && react-scripts start",
-    "build": "react-scripts build",
+    "build": "node ./src/script.js && rreact-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
